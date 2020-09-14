@@ -1,0 +1,192 @@
+:host {
+  #zomato-page {
+    overflow-x: hidden;
+    .header {
+      background-image: url("src/assets/zomato.png");
+      height: 37rem;
+      width: 100%;
+      .title {
+        position: absolute;
+        font-size: 17px;
+        top: 16px;
+        left: 95px;
+        color: white;
+        font-family: monospace;
+    }
+      .login-header {
+        position: absolute;
+        right: 154px;
+        font-size: 17px;
+        top: 16px;
+        color: white;
+        font-family: monospace;
+      }
+      .signup {
+        position: absolute;
+        right: 50px;
+        font-size: 17px;
+        top: 16px;
+        color: white;
+        font-family: monospace;
+      }
+      .header-content {
+        .header-text {
+          position: absolute;
+          top: 16%;
+          left: 37%;
+          font-size: 88px;
+          color:white;
+        }
+        .header-mid-text {
+          position: absolute;
+          top: 37%;
+          left: 27%;
+          font-size: 35px;
+          color: white;
+          font-family: initial;
+        }
+      }
+      .search-container{
+        position: absolute;
+        top: 50%;
+        left: 27%;
+        .search {
+          width: 433%;
+          height: 40px;
+          border-radius: 17px;
+        }
+
+      }
+    }
+    .content-section {
+      height: 400px;
+      width: 100%;
+      //background-color: antiquewhite;
+
+
+      .image {
+        height: 295px;
+        width: 19%;
+        margin-top: 32px;
+        border-radius: 20px;
+        background-color: white;
+        border: 2px solid whitesmoke;
+        transition: transform 0.9s;
+        .food-items{
+          height: 229px;
+          width: 100%;
+          border-radius: 17px 17px 0 0;
+        }
+        .image-caption {
+          text-align: center;
+          font-size: 27px;
+          font-weight: 400;
+          font-family: fangsong;
+        }
+      }
+      .image:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+         transform: scale(1.1);
+      }
+    }
+    .content-2nd-Section {
+      height: 450px;
+      width: 100%;
+      .content-title {
+        .main-title {
+          position: relative;
+          left: 147px;
+          font-size: 40px;
+          font-weight: 400;
+          font-family: sans-serif;
+        }
+        .title-desc {
+          position: relative;
+          /* right: 119px; */
+          left: 153px;
+          /* top: 10px; */
+          bottom: 26px;
+          font-size: 20px;
+          font-weight: 300;
+          font-family: inherit;
+        }
+        //.content-image {
+        //  height:283px;
+        //  width: 100%;
+        //  background-color: antiquewhite;
+        //  //.content-image1{
+        //  //  height: 300px;
+        //  //  width: 19%;
+        //  //  border-radius: 11px;
+        //  //  //.content-image-ins {
+        //  //  //  height: 85%;
+        //  //  //  width: 100%;
+        //  //  //  border-radius: 11px;
+        //  //  //}
+        //  //}
+        //}
+
+      }
+
+
+    }
+    .content-3rd-section {
+      height: 800px;
+      width: 100%;
+      background-color: white;
+      .h2-title {
+        position: relative;
+        font-size: 40px;
+        font-weight: 300;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 60px;
+      }
+    }
+    .mat-cards {
+      display: flex;
+      justify-content: center;
+    }
+    .content-app {
+      height: 500px;
+      width: 100%;
+      background-color: #fefbf7;;
+
+    }
+    .footer-section {
+      height: 450px;
+      width: 100%;
+      background-color: #f8f8f8;
+      .footer-heading {
+        position: relative;
+        left: 85px;
+        font-size: 37px;
+        font-family: monospace;
+      }
+      .footer-content {
+        .foooter-in {
+          h2 {
+            font-size: 17px;
+            font-family: sans-serif;
+          }
+          p {
+            font-size: 15px;
+            font-weight: 100;
+            font-family: sans-serif;;
+          }
+          .footer-icon {
+            img {
+              height: 36px;
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+  }
+}
