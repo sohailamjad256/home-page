@@ -1,292 +1,336 @@
-<div id="zomato-page">
-  <div class="header">
-    <span class="toolbar-section">
-      <h2 class="title">{{'Get the app'}}</h2>
-      <h2 class="login-header">{{'Login'}}</h2>
-      <h2 class="signup">{{'Sign up'}}</h2>
-    </span>
-    <span class="header-content" fxLayout="column">
-      <h1 class="header-text">
-        zomato
-      </h1>
-      <h3 class="header-mid-text">
-        Discover the best food & drinks in bengaluru
-      </h3>
-    </span>
-    <span class="search-container">
-      <form>
-        <input type="text" class="search" placeholder="Search for the restaurant, cuisine or a dish">
-      </form>
-    </span>
-  </div>
-  <div class="content-section" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="20px">
-    <span class="image">
-      <img src="assets/download.jpeg"  class="food-items" >
-      <h2 class="image-caption">{{'Order Food Online'}}</h2>
-
-
-    </span>
-    <span class="image">
-      <img src="assets/download (1).jpeg" class="food-items" >
-      <h2 class="image-caption">{{'Go out for meal'}}</h2>
-    </span>
-
-    <span class="image">
-      <img src="assets/download (2).jpeg" class="food-items">
-       <h2 class="image-caption">{{' Nightlife & Clubs'}}</h2>
-    </span>
-
-    <span class="image">
-      <img src="assets/food-1932466__340.jpg" class="food-items">
-       <h2 class="image-caption">{{'Zomato Pro'}}</h2>
-    </span>
-  </div>
-  <div class="content-2nd-Section" fxLayout="column">
-    <span class="content-title">
-      <h2 class="main-title">Collections</h2>
-      <p class="title-desc">Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends</p>
-    </span>
-    <span class="content-image" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="15px">
-
-      <img src="assets/cheers.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px; ">
-
-
-        <img src="assets/palce.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">
-
-
-        <img src="assets/green image.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">
-
-       <img src="assets/download.jpeg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">
-
-
-    </span>
-  </div>
-  <div class="content-3rd-section" fxLayout="column">
-    <h2 class="h2-title">Popular localities in and around <b>Bengaluru</b></h2>
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
-
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
+<app-task1></app-task1>
+<!--<div id="zomato-page">-->
+<!--  <div class="header">-->
+<!--    <span class="toolbar-section">-->
+<!--      <h2 class="title">{{'Get the app'}}</h2>-->
+<!--      <h2 class="login-header">{{'Login'}}</h2>-->
+<!--      <h2 class="signup">{{'Sign up'}}</h2>-->
+<!--    </span>-->
+<!--    <span class="header-content" fxLayout="column">-->
+<!--      <h1 class="header-text">-->
+<!--        zomato-->
+<!--      </h1>-->
+<!--      <h3 class="header-mid-text">-->
+<!--        Discover the best food & drinks in bengaluru-->
+<!--      </h3>-->
+<!--    </span>-->
+<!--    <span class="search-container" fxLayout="row">-->
+<!--      <mat-form-field appearance="fill">-->
+<!--    <mat-label>Address</mat-label>-->
+<!--    <mat-select  [(ngModel)]="selectedValue" name="food" >-->
+<!--      <mat-option>-->
+<!--       -&#45;&#45;-->
+<!--      </mat-option>-->
+<!--      <mat-option>-->
+<!--       BTM-->
+<!--      </mat-option>-->
+<!--      <mat-option>-->
+<!--       BTM 1st stage-->
+<!--      </mat-option>-->
+<!--      <mat-option>-->
+<!--       BTM 2nd stage-->
+<!--      </mat-option>-->
+<!--    </mat-select>-->
+<!--  </mat-form-field>-->
+<!--    <mat-divider></mat-divider>-->
+<!--      <p class="searchhead">Search for restaurant, Cuisine or a dish</p>-->
+<!--      <mat-icon style=" position: relative;left: 155px;  top: 10px;">search</mat-icon>-->
+<!--&lt;!&ndash;      <form>&ndash;&gt;-->
+<!--&lt;!&ndash;        <input type="text" class="search" placeholder="Search for the restaurant, cuisine or a dish">&ndash;&gt;-->
+<!--&lt;!&ndash;      </form>&ndash;&gt;-->
+<!--    </span>-->
+<!--  </div>-->
+<!--  <div class="content-section" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="20px">-->
+<!--    <span class="image">-->
+<!--      <img src="assets/download.jpeg"  class="food-items" >-->
+<!--      <h2 class="image-caption">{{'Order Food Online'}}</h2>-->
+
+
+<!--    </span>-->
+<!--    <span class="image">-->
+<!--      <img src="assets/download (1).jpeg" class="food-items" >-->
+<!--      <h2 class="image-caption">{{'Go out for meal'}}</h2>-->
+<!--    </span>-->
+
+<!--    <span class="image">-->
+<!--      <img src="assets/download (2).jpeg" class="food-items">-->
+<!--       <h2 class="image-caption">{{' Nightlife & Clubs'}}</h2>-->
+<!--    </span>-->
+
+<!--    <span class="image">-->
+<!--      <img src="assets/food-1932466__340.jpg" class="food-items">-->
+<!--       <h2 class="image-caption">{{'Zomato Pro'}}</h2>-->
+<!--    </span>-->
+<!--  </div>-->
+<!--  <div class="content-2nd-Section" fxLayout="column">-->
+<!--    <span class="content-title">-->
+<!--      <h2 class="main-title">Collections</h2>-->
+<!--      <p class="title-desc">Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends</p>-->
+<!--    </span>-->
+<!--    <span class="content-image" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="15px">-->
+
+<!--      <img src="assets/cheers.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px; ">-->
+
+
+<!--        <img src="assets/palce.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">-->
+
+
+<!--        <img src="assets/green image.jpg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">-->
+
+<!--       <img src="assets/download.jpeg" class="content-image-ins" style="height: 281px;width: 19%;border-radius: 17px;">-->
+
+
+<!--    </span>-->
+<!--  </div>-->
+<!--  <div class="content-3rd-section" fxLayout="column">-->
+<!--    <h2 class="h2-title">Popular localities in and around <b>Bengaluru</b></h2>-->
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
 
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
+<!--    </span>-->
 
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
 
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
 
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
 
-    </span>
-
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
 
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
-
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
-
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
-
-    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-
-      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">
-        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>
-        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>
-      </mat-card>
-
-    </span>
-
-
-  </div>
-
-  <div class="content-app" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="40px" >
-    <span class="mobile">
-      <img src="assets/zomoto_bann.png" style="height: 440px;margin-top: 35px;">
-    </span>
-    <span class="zomato-desc" fxLayout="column" >
-      <h1 style="position: relative;top: 29px;font-size: 45px;font-family: monospace;"> Get the Zomato App</h1>
-      <p style="font-size: 18px;font-weight: 200;font-family: sans-serif">We will send you a link, open it on your phone to download the app</p>
-
-       <mat-radio-group aria-label="Select an option">
-           <mat-radio-button value="1">Email </mat-radio-button>
-           <mat-radio-button value="2" style="margin-left: 26px;margin-top: 26px;">Phone </mat-radio-button>
-       </mat-radio-group>
-       <span class="form-field">
-         <mat-form-field appearance="outline" style="width: 60%; margin-top: 15px">
-           <mat-label>{{'Email'}}</mat-label>
-           <input matInput type="email">
-         </mat-form-field>
-         <button mat-raised-button style="margin-left: 12px;height: 55px; width: 128px;background-color: orangered; color: white;}">Share App Link</button>
-       </span>
-       <p style="font-weight: 100">{{'Download app  from'}}</p>
-<!--      <img src="assets/app-download-buttons.png">-->
-      <span fxLayout="row">
-        <img src="assets/Google-play.jpg" style="height: 51px">
-        <img src="assets/images.png" style="height: 51px; margin-left: 15px">
-      </span>
-
-
-    </span>
-  </div>
-
-  <div class="footer-section" fxLayout="column">
-    <h2 class="footer-heading">Zomato</h2>
-    <span class="footer-content" fxLayout="row" fxLayoutAlign="space-around">
-      <span class="foooter-in" fxLayout="column">
-        <h2>COMPANY</h2>
-        <p>About</p>
-        <p>Blog</p>
-        <p>Career</p>
-        <p>Report Fraud</p>
-        <p>Contact</p>
-
-      </span>
-
-       <span class="foooter-in" fxLayout="column">
-        <h2>FOR FOODIES</h2>
-        <p>Code of Conduct</p>
-        <p>Community</p>
-        <p>Blogger Help</p>
-         <p>Developers</p>
-         <p>Mobile Apps</p>
-
-      </span>
-       <span class="foooter-in" fxLayout="column">
-       <h2>FOR RESTAURANTS</h2>
-        <p>Add Restaurants</p>
-        <p>Claim Your Listing</p>
-        <p>Bussiness App</p>
-         <p>Restaurant Widgets</p>
-         <p>Products of Bussiness</p>
-
-      </span>
-       <span class="foooter-in" fxLayout="column">
-        <h2>FOR YOU</h2>
-        <p>Privacy</p>
-        <p>Terms</p>
-        <p>Security</p>
-         <p>Sitemap</p>
-
-      </span>
-
-      <span class="foooter-in" fxLayout="column">
-        <h2>SOCIAL LINKS</h2>
-        <span class="footer-icon" fxLayout="row">
-         <img src="assets/fbbbbbbb.jpg" >
-          <img src="assets/insta.png">
-          <img src="assets/twitter-2.png">
-        </span>
-       <img src="assets/Google-play.jpg" style="height: 51px; margin-top: 26px;">
-        <img src="assets/images.png" style="height: 51px; margin-top: 26px;">
-
-
-      </span>
-    </span>
-    <mat-divider></mat-divider>
-
-
-
-  </div>
-
-
-</div>
+<!--    </span>-->
+
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--    </span>-->
+
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--    </span>-->
+
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--    </span>-->
+
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--    </span>-->
+
+<!--    <span fxLayout="row" fxLayoutGap="20px" class="mat-cards" style="margin-top: 34px;">-->
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--     <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+
+<!--      <mat-card style="width: 20%;border-radius: 8px; height: 27px;">-->
+<!--        <mat-card-title style="font-size: 20px; font-weight: 300">Indranagar(743 palces)</mat-card-title>-->
+<!--        <mat-icon style="position: relative;left: 251px;bottom: 29px">keyboard_arrow_right</mat-icon>-->
+<!--      </mat-card>-->
+
+<!--    </span>-->
+
+
+<!--  </div>-->
+
+<!--  <div class="content-app" fxLayout="row" fxLayoutAlign="center" fxLayoutGap="40px" >-->
+<!--    <span class="mobile">-->
+<!--      <img src="assets/zomoto_bann.png" style="height: 440px;margin-top: 35px;">-->
+<!--    </span>-->
+<!--    <span class="zomato-desc" fxLayout="column" >-->
+<!--      <h1 style="position: relative;top: 29px;font-size: 45px;font-family: monospace;"> Get the Zomato App</h1>-->
+<!--      <p style="font-size: 18px;font-weight: 200;font-family: sans-serif">We will send you a link, open it on your phone to download the app</p>-->
+
+<!--       <mat-radio-group aria-label="Select an option">-->
+<!--           <mat-radio-button value="1">Email </mat-radio-button>-->
+<!--           <mat-radio-button value="2" style="margin-left: 26px;margin-top: 26px;">Phone </mat-radio-button>-->
+<!--       </mat-radio-group>-->
+<!--       <span class="form-field">-->
+<!--         <mat-form-field appearance="outline" style="width: 60%; margin-top: 15px">-->
+<!--           <mat-label>{{'Email'}}</mat-label>-->
+<!--           <input matInput type="email">-->
+<!--         </mat-form-field>-->
+<!--         <button mat-raised-button style="margin-left: 12px;height: 55px; width: 128px;background-color: orangered; color: white;}">Share App Link</button>-->
+<!--       </span>-->
+<!--       <p style="font-weight: 100">{{'Download app  from'}}</p>-->
+<!--&lt;!&ndash;      <img src="assets/app-download-buttons.png">&ndash;&gt;-->
+<!--      <span fxLayout="row">-->
+<!--        <img src="assets/Google-play.jpg" style="height: 51px">-->
+<!--        <img src="assets/images.png" style="height: 51px; margin-left: 15px">-->
+<!--      </span>-->
+
+
+<!--    </span>-->
+<!--  </div>-->
+
+<!--  <div class="footer-section" fxLayout="column">-->
+<!--    <h2 class="footer-heading">Zomato</h2>-->
+<!--    <span class="footer-content" fxLayout="row" fxLayoutAlign="space-around">-->
+<!--      <span class="foooter-in" fxLayout="column">-->
+<!--        <h2>COMPANY</h2>-->
+<!--        <p>About</p>-->
+<!--        <p>Blog</p>-->
+<!--        <p>Career</p>-->
+<!--        <p>Report Fraud</p>-->
+<!--        <p>Contact</p>-->
+
+<!--      </span>-->
+
+<!--       <span class="foooter-in" fxLayout="column">-->
+<!--        <h2>FOR FOODIES</h2>-->
+<!--        <p>Code of Conduct</p>-->
+<!--        <p>Community</p>-->
+<!--        <p>Blogger Help</p>-->
+<!--         <p>Developers</p>-->
+<!--         <p>Mobile Apps</p>-->
+
+<!--      </span>-->
+<!--       <span class="foooter-in" fxLayout="column">-->
+<!--       <h2>FOR RESTAURANTS</h2>-->
+<!--        <p>Add Restaurants</p>-->
+<!--        <p>Claim Your Listing</p>-->
+<!--        <p>Bussiness App</p>-->
+<!--         <p>Restaurant Widgets</p>-->
+<!--         <p>Products of Bussiness</p>-->
+
+<!--      </span>-->
+<!--       <span class="foooter-in" fxLayout="column">-->
+<!--        <h2>FOR YOU</h2>-->
+<!--        <p>Privacy</p>-->
+<!--        <p>Terms</p>-->
+<!--        <p>Security</p>-->
+<!--         <p>Sitemap</p>-->
+
+<!--      </span>-->
+
+<!--      <span class="foooter-in" fxLayout="column">-->
+<!--        <h2>SOCIAL LINKS</h2>-->
+<!--        <span class="footer-icon" fxLayout="row">-->
+<!--         <img src="assets/fbbbbbbb.jpg" >-->
+<!--          <img src="assets/insta.png">-->
+<!--          <img src="assets/twitter-2.png">-->
+<!--        </span>-->
+<!--       <img src="assets/Google-play.jpg" style="height: 51px; margin-top: 26px;">-->
+<!--        <img src="assets/images.png" style="height: 51px; margin-top: 26px;">-->
+
+
+<!--      </span>-->
+<!--    </span>-->
+<!--    <mat-divider></mat-divider>-->
+
+
+
+<!--  </div>-->
+
+
+<!--</div>-->
+
+
+
+<!--only for practice http-->
+
+<!--<div>-->
+<!--  <form fxLayout="column" fxLayoutAlign="center center" (ngSubmit)="onSubmit()">-->
+<!--    <mat-form-field appearance="outline" >-->
+<!--      <mat-label>{{'username'}}</mat-label>-->
+<!--      <input  matInput placeholder="username" >-->
+<!--    </mat-form-field>-->
+<!--    <mat-form-field appearance="outline">-->
+<!--      <mat-label>password</mat-label>-->
+<!--      <input type="password" placeholder="password" >-->
+<!--    </mat-form-field>-->
+<!--    <mat-form-field>-->
+<!--      <mat-label>file</mat-label>-->
+<!--      <input type="file"placeholder="file"  >-->
+<!--    </mat-form-field>-->
+
+<!--    <button mat-raised-button type="submit" style="color: white">submit</button>-->
+<!--  </form>-->
+<!--</div>-->

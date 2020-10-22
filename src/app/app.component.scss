@@ -50,11 +50,21 @@
         position: absolute;
         top: 50%;
         left: 27%;
-        .search {
-          width: 433%;
-          height: 40px;
-          border-radius: 17px;
+        height: 45px;
+        width: 47%;
+        border-radius: 6px;
+        background-color: white;
+        .searchhead {
+          color: gray;
+          font-size: 15px;
+          font-family: sans-serif;
+          margin-left: 13px;
         }
+        //.search {
+        //  width: 433%;
+        //  height: 40px;
+        //  border-radius: 9px;
+        //}
 
       }
     }
@@ -189,4 +199,8 @@
 
 
   }
+}
+.mat-raised-button  {
+  background-color: #2c4987;
+  width: fit-content;
 }
